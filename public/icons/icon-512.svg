@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#4f46e5" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#09090b" />
+  <rect x="64" y="64" width="384" height="384" rx="96" fill="url(#grad)" filter="url(#shadow)" />
+  <!-- Graduation cap / Research open book symbol -->
+  <path d="M256 160L128 230L256 300L384 230L256 160Z" fill="#ffffff" />
+  <path d="M168 252V320C168 350 208 368 256 368C304 368 344 350 344 320V252L256 300L168 252Z" fill="#ffffff" fill-opacity="0.85" />
+  <!-- Sparkle badge -->
+  <circle cx="360" cy="180" r="16" fill="#facc15" />
+  <path d="M360 152V208M332 180H388" stroke="#facc15" stroke-width="6" stroke-linecap="round" />
+</svg>
