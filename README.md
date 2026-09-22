@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ResearchGPT 🔬🚀
 ### Next-Generation AI Research Assistant, Grounded Literature Synthesizer & Fake Citation Guard
 
@@ -237,3 +238,6 @@ const server = app.listen(5099, async () => {
 ## 📄 License
 
 MIT License © 2026 ResearchGPT Team.
+=======
+# MyRepository
+>>>>>>> 7186370ecace84002666f64175f58eddeed6fdec
